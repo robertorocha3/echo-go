@@ -1,0 +1,7 @@
+*.iml
+target
+*test*
+*-bkp*
+*-orig
+.idea
+app
