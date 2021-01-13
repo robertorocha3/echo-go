@@ -138,3 +138,4 @@ func Info(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	log.Debugln("result: " + string(uj))
 	fmt.Fprintf(w, "%s", uj) // Fprintf is sending uj (formatted response) to w's (http response writer) pointer
 }
+
